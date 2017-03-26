@@ -1,0 +1,25 @@
+﻿Build started 8/11/2015 10:34:22 AM.
+     1>Project "E:\TAM\TrainingFW\lib\soil\proj\SOIL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\image_DXT.c "..\src\original\stb_image-1.09.c" "..\src\original\stb_image-1.16.c" ..\src\stb_image_aug.c
+         image_DXT.c
+     1>..\src\image_DXT.c(92): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         stb_image-1.09.c
+     1>..\src\original\stb_image-1.09.c(418): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         stb_image-1.16.c
+     1>..\src\original\stb_image-1.16.c(458): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         stb_image_aug.c
+     1>..\src\stb_image_aug.c(177): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\tam\trainingfw\lib\soil\src\stbi_DDS_aug_c.h(362): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\tam\trainingfw\lib\soil\src\stbi_DDS_aug_c.h(366): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\tam\trainingfw\lib\soil\src\stbi_DDS_aug_c.h(390): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\tam\trainingfw\lib\soil\src\stbi_DDS_aug_c.h(427): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "E:\TAM\TrainingFW\lib\soil\proj\SOIL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.22

@@ -1,0 +1,340 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/12/2015 13:59:42.
+Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.62
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/3.3.0-rc4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/12/2015 13:59:43.
+Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/3.3.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_1edb0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/12/2015 13:59:44.
+Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_1edb0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1edb0.dir\Debug\".
+  Creating directory "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1edb0.dir\Debug\cmTC_1edb0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1edb0.dir\Debug\cmTC_1edb0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1edb0.dir\Debug\\" /Fd"cmTC_1edb0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1edb0.dir\Debug\\" /Fd"cmTC_1edb0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_1edb0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_1edb0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_1edb0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_1edb0.dir\Debug\testCCompiler.obj
+  cmTC_1edb0.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_1edb0.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1edb0.dir\Debug\cmTC_1edb0.tlog\unsuccessfulbuild".
+  Touching "cmTC_1edb0.dir\Debug\cmTC_1edb0.tlog\cmTC_1edb0.lastbuildstate".
+Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_1edb0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_99a83.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/12/2015 13:59:44.
+Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_99a83.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_99a83.dir\Debug\".
+  Creating directory "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_99a83.dir\Debug\cmTC_99a83.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_99a83.dir\Debug\cmTC_99a83.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_99a83.dir\Debug\\" /Fd"cmTC_99a83.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_99a83.dir\Debug\\" /Fd"cmTC_99a83.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_99a83.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_99a83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_99a83.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_99a83.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_99a83.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_99a83.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_99a83.dir\Debug\cmTC_99a83.tlog\unsuccessfulbuild".
+  Touching "cmTC_99a83.dir\Debug\cmTC_99a83.tlog\cmTC_99a83.lastbuildstate".
+Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_99a83.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a2b1c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/12/2015 13:59:45.
+Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_a2b1c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a2b1c.dir\Debug\".
+  Creating directory "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a2b1c.dir\Debug\cmTC_a2b1c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a2b1c.dir\Debug\cmTC_a2b1c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_a2b1c.dir\Debug\\" /Fd"cmTC_a2b1c.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_a2b1c.dir\Debug\\" /Fd"cmTC_a2b1c.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_a2b1c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_a2b1c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_a2b1c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a2b1c.dir\Debug\testCXXCompiler.obj
+  cmTC_a2b1c.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_a2b1c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a2b1c.dir\Debug\cmTC_a2b1c.tlog\unsuccessfulbuild".
+  Touching "cmTC_a2b1c.dir\Debug\cmTC_a2b1c.tlog\cmTC_a2b1c.lastbuildstate".
+Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_a2b1c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.59
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_605e1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/12/2015 13:59:46.
+Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_605e1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_605e1.dir\Debug\".
+  Creating directory "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_605e1.dir\Debug\cmTC_605e1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_605e1.dir\Debug\cmTC_605e1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_605e1.dir\Debug\\" /Fd"cmTC_605e1.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_605e1.dir\Debug\\" /Fd"cmTC_605e1.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_605e1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_605e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_605e1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_605e1.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_605e1.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_605e1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_605e1.dir\Debug\cmTC_605e1.tlog\unsuccessfulbuild".
+  Touching "cmTC_605e1.dir\Debug\cmTC_605e1.tlog\cmTC_605e1.lastbuildstate".
+Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_605e1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8c8b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/12/2015 13:59:47.
+Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_8c8b6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8c8b6.dir\Debug\".
+  Creating directory "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8c8b6.dir\Debug\cmTC_8c8b6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8c8b6.dir\Debug\cmTC_8c8b6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8c8b6.dir\Debug\\" /Fd"cmTC_8c8b6.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8c8b6.dir\Debug\\" /Fd"cmTC_8c8b6.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_8c8b6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_8c8b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/CMakeFiles/CMakeTmp/Debug/cmTC_8c8b6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_8c8b6.dir\Debug\feature_tests.obj
+  cmTC_8c8b6.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\Debug\cmTC_8c8b6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8c8b6.dir\Debug\cmTC_8c8b6.tlog\unsuccessfulbuild".
+  Touching "cmTC_8c8b6.dir\Debug\cmTC_8c8b6.tlog\cmTC_8c8b6.lastbuildstate".
+Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\CMakeTmp\cmTC_8c8b6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

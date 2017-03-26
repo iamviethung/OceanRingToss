@@ -1,0 +1,31 @@
+﻿Build started 8/13/2015 08:33:42.
+     1>Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\src\LinearMath\LinearMath.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/src/LinearMath/CMakeLists.txt
+         CMake does not need to re-run because D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\src\LinearMath\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _DEBUG /D _DEBUG /D USE_GRAPHICAL_BENCHMARK /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"LinearMath.dir\Debug\\" /Fd"LinearMath.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btAlignedAllocator.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btConvexHull.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btConvexHullComputer.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btGeometryUtil.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btPolarDecomposition.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btQuickprof.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btSerializer.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\LinearMath\btVector3.cpp
+         btAlignedAllocator.cpp
+         btConvexHull.cpp
+         btConvexHullComputer.cpp
+         btGeometryUtil.cpp
+         btPolarDecomposition.cpp
+         btQuickprof.cpp
+         btSerializer.cpp
+         btVector3.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\Debug\LinearMath_Debug.lib" /NOLOGO LinearMath.dir\Debug\btAlignedAllocator.obj
+         LinearMath.dir\Debug\btConvexHull.obj
+         LinearMath.dir\Debug\btConvexHullComputer.obj
+         LinearMath.dir\Debug\btGeometryUtil.obj
+         LinearMath.dir\Debug\btPolarDecomposition.obj
+         LinearMath.dir\Debug\btQuickprof.obj
+         LinearMath.dir\Debug\btSerializer.obj
+         LinearMath.dir\Debug\btVector3.obj
+         LinearMath.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\Debug\LinearMath_Debug.lib
+     1>Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\src\LinearMath\LinearMath.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.24

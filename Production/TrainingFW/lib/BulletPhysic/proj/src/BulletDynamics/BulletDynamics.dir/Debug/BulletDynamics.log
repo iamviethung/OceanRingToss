@@ -1,0 +1,81 @@
+﻿Build started 8/13/2015 08:33:42.
+     1>Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\src\BulletDynamics\BulletDynamics.vcxproj" on node 5 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/src/BulletDynamics/CMakeLists.txt
+         CMake does not need to re-run because D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\src\BulletDynamics\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _DEBUG /D _DEBUG /D USE_GRAPHICAL_BENCHMARK /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"BulletDynamics.dir\Debug\\" /Fd"BulletDynamics.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Character\btKinematicCharacterController.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Dynamics\btRigidBody.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Vehicle\btWheelInfo.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Featherstone\btMultiBody.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp
+         btKinematicCharacterController.cpp
+         btConeTwistConstraint.cpp
+         btContactConstraint.cpp
+         btFixedConstraint.cpp
+         btGearConstraint.cpp
+         btGeneric6DofConstraint.cpp
+         btGeneric6DofSpringConstraint.cpp
+         btGeneric6DofSpring2Constraint.cpp
+         btHinge2Constraint.cpp
+         btHingeConstraint.cpp
+         btPoint2PointConstraint.cpp
+         btSequentialImpulseConstraintSolver.cpp
+         btNNCGConstraintSolver.cpp
+         btSliderConstraint.cpp
+         btSolve2LinearConstraint.cpp
+         btTypedConstraint.cpp
+         btUniversalConstraint.cpp
+         btDiscreteDynamicsWorld.cpp
+         btRigidBody.cpp
+         btSimpleDynamicsWorld.cpp
+         Generating Code...
+         Compiling...
+         btRaycastVehicle.cpp
+         btWheelInfo.cpp
+         btMultiBody.cpp
+         btMultiBodyConstraintSolver.cpp
+         btMultiBodyDynamicsWorld.cpp
+         btMultiBodyJointLimitConstraint.cpp
+         btMultiBodyConstraint.cpp
+         btMultiBodyPoint2Point.cpp
+         btMultiBodyJointMotor.cpp
+         btDantzigLCP.cpp
+         btMLCPSolver.cpp
+         btLemkeAlgorithm.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\Debug\BulletDynamics_Debug.lib" /NOLOGO BulletDynamics.dir\Debug\btKinematicCharacterController.obj
+         BulletDynamics.dir\Debug\btConeTwistConstraint.obj
+         BulletDynamics.dir\Debug\btContactConstraint.obj
+         BulletDynamics.dir\Debug\btFixedConstraint.obj
+         BulletDynamics.dir\Debug\btGearConstraint.obj
+         BulletDynamics.dir\Debug\btGeneric6DofConstraint.obj
+         BulletDynamics.dir\Debug\btGeneric6DofSpringConstraint.obj
+         BulletDynamics.dir\Debug\btGeneric6DofSpring2Constraint.obj
+         BulletDynamics.dir\Debug\btHinge2Constraint.obj
+         BulletDynamics.dir\Debug\btHingeConstraint.obj
+         BulletDynamics.dir\Debug\btPoint2PointConstraint.obj
+         BulletDynamics.dir\Debug\btSequentialImpulseConstraintSolver.obj
+         BulletDynamics.dir\Debug\btNNCGConstraintSolver.obj
+         BulletDynamics.dir\Debug\btSliderConstraint.obj
+         BulletDynamics.dir\Debug\btSolve2LinearConstraint.obj
+         BulletDynamics.dir\Debug\btTypedConstraint.obj
+         BulletDynamics.dir\Debug\btUniversalConstraint.obj
+         BulletDynamics.dir\Debug\btDiscreteDynamicsWorld.obj
+         BulletDynamics.dir\Debug\btRigidBody.obj
+         BulletDynamics.dir\Debug\btSimpleDynamicsWorld.obj
+         BulletDynamics.dir\Debug\btRaycastVehicle.obj
+         BulletDynamics.dir\Debug\btWheelInfo.obj
+         BulletDynamics.dir\Debug\btMultiBody.obj
+         BulletDynamics.dir\Debug\btMultiBodyConstraintSolver.obj
+         BulletDynamics.dir\Debug\btMultiBodyDynamicsWorld.obj
+         BulletDynamics.dir\Debug\btMultiBodyJointLimitConstraint.obj
+         BulletDynamics.dir\Debug\btMultiBodyConstraint.obj
+         BulletDynamics.dir\Debug\btMultiBodyPoint2Point.obj
+         BulletDynamics.dir\Debug\btMultiBodyJointMotor.obj
+         BulletDynamics.dir\Debug\btDantzigLCP.obj
+         BulletDynamics.dir\Debug\btMLCPSolver.obj
+         BulletDynamics.dir\Debug\btLemkeAlgorithm.obj
+         BulletDynamics.vcxproj -> D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\Debug\BulletDynamics_Debug.lib
+     1>Done Building Project "D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\src\BulletDynamics\BulletDynamics.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.77

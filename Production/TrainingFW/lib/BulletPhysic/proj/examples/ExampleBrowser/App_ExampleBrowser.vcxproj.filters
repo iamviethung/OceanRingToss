@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\ExampleEntries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\SharedMemory\PhysicsServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\SharedMemory\PhysicsClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\SharedMemory\PosixSharedMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\SharedMemory\Win32SharedMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\BasicDemo\BasicExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ForkLift\ForkLiftDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\GyroscopicDemo\GyroscopicSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Planar2D\Planar2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RollingFrictionDemo\RollingFrictionDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\FractureDemo\FractureDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\FractureDemo\btFractureBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\FractureDemo\btFractureDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\DynamicControlDemo\MotorDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RenderingExamples\CoordinateSystemDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RenderingExamples\RaytracerSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RenderingExamples\RenderInstancingDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Benchmarks\BenchmarkDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Raycast\RaytestDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBullet\SerializeSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletFileLoader\bChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletFileLoader\bFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletFileLoader\bDNA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletFileLoader\btBulletFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBsp\BspConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBsp\BspLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBsp\ImportBspExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportColladaDemo\ImportColladaSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportObjDemo\ImportObjExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\ImportURDFSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\MyURDFImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\VoronoiFracture\VoronoiFractureDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\VoronoiFracture\btConvexConvexMprAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Vehicles\Hinge2Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\MultiBody\TestJointTorqueSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\MultiBody\MultiDofDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Constraints\ConstraintDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Constraints\Dof6Spring2Setup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Constraints\ConstraintPhysicsSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\tinyxml\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\pose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\boost_replacement\printf_console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\boost_replacement\string_split.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Utils\b3Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GL_ShapeDrawer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\OpenGLExampleBrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\OpenGLGuiHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GraphingTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GwenParameterInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GwenProfileWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GwenTextureWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\ExampleEntries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\BasicDemo\BasicExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ForkLift\ForkLiftDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\GyroscopicDemo\GyroscopicSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Planar2D\Planar2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RollingFrictionDemo\RollingFrictionDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\FractureDemo\FractureDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\FractureDemo\btFractureBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\FractureDemo\btFractureDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\DynamicControlDemo\MotorDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RenderingExamples\CoordinateSystemDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RenderingExamples\RaytracerSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\RenderingExamples\RenderInstancingDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Benchmarks\BenchmarkDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Benchmarks\landscapeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Benchmarks\TaruData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBsp\BspConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBullet\SerializeSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBsp\BspLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportBsp\ImportBspExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportColladaDemo\btMatrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportColladaDemo\ImportColladaSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportObjDemo\ImportObjExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\ImportURDFSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\URDF2Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\urdf_samples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Importers\ImportURDFDemo\MyURDFImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\VoronoiFracture\VoronoiFractureDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\VoronoiFracture\btConvexConvexMprAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Vehicles\Hinge2Vehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\MultiBody\TestJointTorqueSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\MultiBody\MultiDofDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Constraints\ConstraintDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Constraints\Dof6Spring2Setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Constraints\ConstraintPhysicsSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\include\urdf_parser\urdf_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom_headers\urdf_exception\include\urdf_exception\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\pose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\link.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\boost_replacement\lexical_cast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\boost_replacement\shared_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\boost_replacement\printf_console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ThirdPartyLibs\urdf\boost_replacement\string_split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\Utils\b3Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\EmptyBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\EmptyExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\ExampleBrowserInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GL_ShapeDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\OpenGLExampleBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\OpenGLGuiHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GraphingTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\gwenInternalData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GwenParameterInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GwenProfileWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\GwenTextureWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\GwenGUISupport" />
+    <None Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\examples\ExampleBrowser\premake4.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\build3\bullet.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A048BB52-2630-47F2-B4FB-24448E0348F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{03017D3F-F292-45BA-AB70-8EB2E0EC6E1E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

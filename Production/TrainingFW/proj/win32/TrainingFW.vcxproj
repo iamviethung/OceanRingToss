@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9FD1A789-5E6B-491C-8B3B-A0C6DA7779A7}</ProjectGuid>
+    <RootNamespace>My3DAdvanceTrainingFW</RootNamespace>
+    <ProjectName>TrainingFW</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\lib\OGLES20\Include\;$(ProjectDir)..\..\lib\SOIL\src\;$(ProjectDir)..\..\lib\vld\include\;$(ProjectDir)..\..\source\;$(ProjectDir)..\..\lib\BulletPhysic\src\physicBullet\src\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib\OGLES20\;$(ProjectDir)..\..\lib\SOIL\;$(ProjectDir)..\..\lib\vld\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\Camera.cpp" />
+    <ClCompile Include="..\..\source\Game.cpp" />
+    <ClCompile Include="..\..\source\Menu.cpp" />
+    <ClCompile Include="..\..\source\Object.cpp" />
+    <ClCompile Include="..\..\source\Object2D.cpp" />
+    <ClCompile Include="..\..\source\Platform\InputManager.cpp" />
+    <ClCompile Include="..\..\source\Platform\PlatformAndroid.cpp" />
+    <ClCompile Include="..\..\source\Platform\PlatformWin32.cpp" />
+    <ClCompile Include="..\..\source\ResourceManager.cpp" />
+    <ClCompile Include="..\..\source\Save.cpp" />
+    <ClCompile Include="..\..\source\SceneManager.cpp" />
+    <ClCompile Include="..\..\source\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Utils\FPSLimiter.cpp" />
+    <ClCompile Include="..\..\source\Video\Program.cpp" />
+    <ClCompile Include="..\..\source\Video\Texture.cpp" />
+    <ClCompile Include="..\..\source\WaterCaustic.cpp" />
+    <ClCompile Include="..\..\source\Win32\main.cpp" />
+    <ClCompile Include="..\..\source\XMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\Camera.h" />
+    <ClInclude Include="..\..\source\Game.h" />
+    <ClInclude Include="..\..\source\game_config.h" />
+    <ClInclude Include="..\..\source\macros.h" />
+    <ClInclude Include="..\..\source\Menu.h" />
+    <ClInclude Include="..\..\source\ModelData.h" />
+    <ClInclude Include="..\..\source\Object.h" />
+    <ClInclude Include="..\..\source\Object2D.h" />
+    <ClInclude Include="..\..\source\Platform\InputManager.h" />
+    <ClInclude Include="..\..\source\Platform\Platform.h" />
+    <ClInclude Include="..\..\source\Platform\PlatformAndroid.h" />
+    <ClInclude Include="..\..\source\Platform\PlatformWin32.h" />
+    <ClInclude Include="..\..\source\ResourceManager.h" />
+    <ClInclude Include="..\..\source\Save.h" />
+    <ClInclude Include="..\..\source\SceneManager.h" />
+    <ClInclude Include="..\..\source\stdafx.h" />
+    <ClInclude Include="..\..\source\SwimingFishWithoutFuckingAnimation.h" />
+    <ClInclude Include="..\..\source\Utils\FPSLimiter.h" />
+    <ClInclude Include="..\..\source\Utils\Misc.h" />
+    <ClInclude Include="..\..\source\Utils\Singleton.h" />
+    <ClInclude Include="..\..\source\Vertex.h" />
+    <ClInclude Include="..\..\source\Video\Program.h" />
+    <ClInclude Include="..\..\source\Video\Texture.h" />
+    <ClInclude Include="..\..\source\WaterCaustic.h" />
+    <ClInclude Include="..\..\source\XMath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\BulletPhysic\proj\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{6c0d1f27-dde8-4d38-af58-a300430e94ae}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\BulletPhysic\proj\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{64da88d0-83a9-41e1-a2bb-6dffcf1aadb6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\BulletPhysic\proj\src\LinearMath\LinearMath.vcxproj">
+      <Project>{1fee8926-56a6-4592-82f7-e1325b0d9ce8}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

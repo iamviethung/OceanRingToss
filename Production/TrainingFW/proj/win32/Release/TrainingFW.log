@@ -1,0 +1,31 @@
+﻿Build started 8/11/2015 10:34:22 AM.
+     1>Project "E:\TAM\TrainingFW\proj\win32\TrainingFW.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Game.cpp ..\..\source\Platform\InputManager.cpp ..\..\source\Platform\PlatformAndroid.cpp ..\..\source\Platform\PlatformWin32.cpp ..\..\source\Shaders.cpp ..\..\source\stdafx.cpp ..\..\source\Utils\FPSLimiter.cpp ..\..\source\Utils\Math3D.cpp ..\..\source\Video\Program.cpp ..\..\source\Video\Texture.cpp ..\..\source\Win32\main.cpp
+         Game.cpp
+     1>e:\tam\trainingfw\source\stdafx.h(27): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         InputManager.cpp
+     1>..\..\source\Platform\InputManager.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         PlatformAndroid.cpp
+     1>..\..\source\Platform\PlatformAndroid.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         PlatformWin32.cpp
+     1>..\..\source\Platform\PlatformWin32.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         Shaders.cpp
+     1>e:\tam\trainingfw\source\stdafx.h(27): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         stdafx.cpp
+     1>e:\tam\trainingfw\source\stdafx.h(27): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         FPSLimiter.cpp
+     1>..\..\source\Utils\FPSLimiter.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         Math3D.cpp
+     1>..\..\source\Utils\Math3D.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         Program.cpp
+     1>..\..\source\Video\Program.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         Texture.cpp
+     1>..\..\source\Video\Texture.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         main.cpp
+     1>..\..\source\Win32\main.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+     1>Done Building Project "E:\TAM\TrainingFW\proj\win32\TrainingFW.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.70

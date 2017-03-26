@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\btBulletXmlWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\string_split.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\btBulletXmlWorldImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\string_split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\Extras\Serialize\BulletXmlWorldImporter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A048BB52-2630-47F2-B4FB-24448E0348F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{03017D3F-F292-45BA-AB70-8EB2E0EC6E1E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c7ecf015-e971-4218-8987-c618dd771a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{9e4264e0-9728-4ca2-ae79-3af9b14859cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video">
+      <UniqueIdentifier>{9bb1a1f3-f7b2-446e-bc4d-3e7b8dc22c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{826767be-081d-41e5-bc8d-2a64b7b4f963}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\Game.cpp" />
+    <ClCompile Include="..\..\source\stdafx.cpp" />
+    <ClCompile Include="..\..\source\Platform\InputManager.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Platform\PlatformAndroid.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Platform\PlatformWin32.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Video\Texture.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Win32\main.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Utils\FPSLimiter.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Video\Program.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ResourceManager.cpp" />
+    <ClCompile Include="..\..\source\Object.cpp" />
+    <ClCompile Include="..\..\source\Object2D.cpp" />
+    <ClCompile Include="..\..\source\SceneManager.cpp" />
+    <ClCompile Include="..\..\source\Camera.cpp" />
+    <ClCompile Include="..\..\source\XMath.cpp" />
+    <ClCompile Include="..\..\source\Menu.cpp" />
+    <ClCompile Include="..\..\source\Save.cpp" />
+    <ClCompile Include="..\..\source\WaterCaustic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\Game.h" />
+    <ClInclude Include="..\..\source\game_config.h" />
+    <ClInclude Include="..\..\source\macros.h" />
+    <ClInclude Include="..\..\source\stdafx.h" />
+    <ClInclude Include="..\..\source\Platform\InputManager.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Platform\Platform.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Platform\PlatformAndroid.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Platform\PlatformWin32.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Video\Texture.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils\Misc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils\Singleton.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils\FPSLimiter.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Video\Program.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ResourceManager.h" />
+    <ClInclude Include="..\..\source\Vertex.h" />
+    <ClInclude Include="..\..\source\Object.h" />
+    <ClInclude Include="..\..\source\Object2D.h" />
+    <ClInclude Include="..\..\source\SceneManager.h" />
+    <ClInclude Include="..\..\source\Camera.h" />
+    <ClInclude Include="..\..\source\XMath.h" />
+    <ClInclude Include="..\..\source\ModelData.h" />
+    <ClInclude Include="..\..\source\Menu.h" />
+    <ClInclude Include="..\..\source\SwimingFishWithoutFuckingAnimation.h" />
+    <ClInclude Include="..\..\source\Save.h" />
+    <ClInclude Include="..\..\source\WaterCaustic.h" />
+  </ItemGroup>
+</Project>

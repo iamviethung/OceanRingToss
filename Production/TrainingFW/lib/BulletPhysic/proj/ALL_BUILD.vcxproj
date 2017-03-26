@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{05594B64-ECE0-43E9-B501-E22801806DD3}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet -BD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj --check-stamp-file D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeSystem.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCCompiler.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\BulletConfig.cmake.in;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet -BD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj --check-stamp-file D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeSystem.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCCompiler.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\BulletConfig.cmake.in;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet -BD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj --check-stamp-file D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeSystem.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCCompiler.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\BulletConfig.cmake.in;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet -BD:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj --check-stamp-file D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/src/physicBullet/CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeSystem.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCCompiler.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\3.3.0-rc4\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\BulletConfig.cmake.in;D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\src\physicBullet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Study\GameloftInternship\GL_Test\Newfolder\TrainingFW\lib\BulletPhysic\proj\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/examples/BasicDemo/App_BasicExample.vcxproj">
+      <Project>26CC28C5-AD0F-4E67-AD2A-ABEBCC007E4E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/examples/ExampleBrowser/App_ExampleBrowser.vcxproj">
+      <Project>71AAE063-81CF-4199-8CF3-FFC23EF3652C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/examples/HelloWorld/App_HelloWorld.vcxproj">
+      <Project>16DBB071-5F6C-4747-BDCB-E51CF86E7537</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/Bullet3Serialize/Bullet2FileLoader/Bullet2FileLoader.vcxproj">
+      <Project>DF770018-A883-48DE-9E62-8898E813DB49</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/Bullet3Collision/Bullet3Collision.vcxproj">
+      <Project>64CDA44D-411D-450A-9220-EBBAFD25F005</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/Bullet3Common/Bullet3Common.vcxproj">
+      <Project>E0BB54C2-9B17-4E73-B62F-7F9ECFCCB679</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/Bullet3Dynamics/Bullet3Dynamics.vcxproj">
+      <Project>ADF3B9F0-EF23-409B-809C-FBB8B19BAC56</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/Bullet3Geometry/Bullet3Geometry.vcxproj">
+      <Project>7EA2AF79-7764-40BF-8BC7-8D461F20BD16</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/Bullet3OpenCL/Bullet3OpenCL_clew.vcxproj">
+      <Project>8641AEEF-A462-4B1B-B4B2-12029F409C9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/BulletCollision/BulletCollision.vcxproj">
+      <Project>6C0D1F27-DDE8-4D38-AF58-A300430E94AE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/BulletDynamics/BulletDynamics.vcxproj">
+      <Project>64DA88D0-83A9-41E1-A2BB-6DFFCF1AADB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/Extras/Serialize/BulletFileLoader/BulletFileLoader.vcxproj">
+      <Project>6ED01A53-111B-4893-8BA3-BD599C2CECCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/BulletSoftBody/BulletSoftBody.vcxproj">
+      <Project>7D97313E-C10F-4A81-ABEB-2A9D50A93B99</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/Extras/Serialize/BulletWorldImporter/BulletWorldImporter.vcxproj">
+      <Project>564C263B-7878-4BC1-A8ED-03F17892687D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/Extras/Serialize/BulletXmlWorldImporter/BulletXmlWorldImporter.vcxproj">
+      <Project>1160D8A5-FF15-40A8-9CED-841FA984D22D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/Extras/ConvexDecomposition/ConvexDecomposition.vcxproj">
+      <Project>EDB75489-CC77-48A7-B5F2-4566408E07D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/Extras/GIMPACTUtils/GIMPACTUtils.vcxproj">
+      <Project>37FCF02C-405E-4A24-B7B5-0B5CE1D83C29</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/Extras/HACD/HACD.vcxproj">
+      <Project>0010411A-6C51-4695-975E-2D6FF20B49C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/src/LinearMath/LinearMath.vcxproj">
+      <Project>1FEE8926-56A6-4592-82F7-E1325B0D9CE8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/examples/OpenGLWindow/OpenGLWindow.vcxproj">
+      <Project>18B0D0F8-A2A1-44EA-8BA1-80CFB5CDDB1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/ZERO_CHECK.vcxproj">
+      <Project>980C5D0D-4B97-487B-9FAE-018BED4E9B87</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/test/gtest-1.7.0/gtest.vcxproj">
+      <Project>5FBF94B8-1964-419C-BED2-E34E1966F625</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Study/GameloftInternship/GL_Test/Newfolder/TrainingFW/lib/BulletPhysic/proj/examples/ThirdPartyLibs/Gwen/gwen.vcxproj">
+      <Project>209AB15A-DCB0-467B-8493-2629891781A7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
